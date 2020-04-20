@@ -8,11 +8,11 @@ root =Tk()
 root.title("Image Viewer")
 
 #Create Image
-my_img1 = ImageTk.PhotoImage(Image.open('Image/whatsapp-image-2020-01-11-at-0.jpg'))
-my_img2 = ImageTk.PhotoImage(Image.open('Image/1.PNG'))
-my_img3 = ImageTk.PhotoImage(Image.open('Image/whatsapp-image-2020-01-11-at-0.jpg'))
-my_img4 = ImageTk.PhotoImage(Image.open('Image/2.PNG'))
-my_img5 = ImageTk.PhotoImage(Image.open('Image/whatsapp-image-2020-01-11-at-0.jpg'))
+my_img1 = ImageTk.PhotoImage(Image.open('Image/1.jpg'))
+my_img2 = ImageTk.PhotoImage(Image.open('Image/2.jpg'))
+my_img3 = ImageTk.PhotoImage(Image.open('Image/3.jpg'))
+my_img4 = ImageTk.PhotoImage(Image.open('Image/4.jpg'))
+my_img5 = ImageTk.PhotoImage(Image.open('Image/5.jpg'))
 img_list = [my_img1,my_img2,my_img3,my_img4,my_img5]
 
 my_label = Label(image=my_img1)
